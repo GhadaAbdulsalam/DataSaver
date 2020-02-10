@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1096338888228",
+    "firebase_url": "https://datasaver-24ff0.firebaseio.com",
+    "project_id": "datasaver-24ff0",
+    "storage_bucket": "datasaver-24ff0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096338888228:android:000b690f8799a966cc6ab1",
+        "android_client_info": {
+          "package_name": "com.example.datasaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096338888228-g38f6cn640b00dq7sv3v8159mjijr2f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.datasaver",
+            "certificate_hash": "fce23fa3db14a21553eb3eb7fa528d58f914270f"
+          }
+        },
+        {
+          "client_id": "1096338888228-6tf443e1cvqnd1fsb7sa7tg0iu0vh2ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmFbND4YoSBYBHlvL_BepfM1T_B9rpMwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096338888228-6tf443e1cvqnd1fsb7sa7tg0iu0vh2ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
