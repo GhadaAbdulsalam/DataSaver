@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_in">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="288dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="290dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439"
+        tools:layout_editor_absoluteX="73dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:background="#63B6E2"
+        android:text="Register"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="609dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="285dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="Comfirm Password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
