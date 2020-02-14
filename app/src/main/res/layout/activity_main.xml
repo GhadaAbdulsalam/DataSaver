@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="262dp"
+        android:layout_height="74dp"
+        android:background="#FF63B6E2"
+        android:text="Sign up"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="573dp"
+        android:radius="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="281dp"
+        android:layout_height="235dp"
+        app:srcCompat="@drawable/Picture1"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="262dp"
+        android:layout_height="74dp"
+        android:background="#63B6E2"
+        android:text="Sign in"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="457dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
