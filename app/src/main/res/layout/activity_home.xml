@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        layout="@layout/content_home"
+        android:background="#F9F8FC" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="#A2C5C9"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="190dp"
+        android:layout_height="246dp"
+        android:layout_margin="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="120dp"
+        app:srcCompat="@drawable/Picture1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_margin="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:height="30dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Data Saver work best with text Files"
+        android:textColor="#6E7474"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_anchor="@+id/imageView2"
+        app:layout_anchorGravity="bottom|center"
+        app:layout_insetEdge="end" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#A4D1DA"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
