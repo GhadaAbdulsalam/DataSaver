@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A3C4C4">
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="154dp" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="enter pasword"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="224dp" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="enter email"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="289dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="260px"
+                android:layout_height="200px"
+                android:src="@drawable/ic_profile"
+                tools:layout_editor_absoluteY="22dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="168dp"
+                android:layout_marginLeft="168dp"
+                android:layout_marginEnd="155dp"
+                android:layout_marginRight="155dp"
+                android:text="save"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="446dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="168dp"
+                android:layout_marginLeft="168dp"
+                android:layout_marginEnd="155dp"
+                android:layout_marginRight="155dp"
+                android:text="@android:string/cancel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="513dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:text="User Name"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="174dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/editText11"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="232dp"
+                tools:text="pasword" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Email"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/editText12"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="302dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="82dp"
+                android:layout_marginLeft="82dp"
+                android:layout_marginEnd="161dp"
+                android:layout_marginRight="161dp"
+                android:background="#619B95"
+                android:text="profile info"
+                android:textColor="#0A0A0A"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                tools:layout_editor_absoluteY="38dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -10,20 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
-            android:parentActivityName=".welcome"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.datasaver.welcome" />
-        </activity>
-        <activity
             android:name=".welcome"
             android:label="@string/title_activity_welcome"
             android:theme="@style/AppTheme" />
         <activity android:name=".Sign_in" />
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
